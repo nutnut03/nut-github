@@ -11,4 +11,6 @@ h1{
 p{
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-decoration: underline;
 }
