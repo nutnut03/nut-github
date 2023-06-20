@@ -2,9 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  ;
 }
-
 body{
   background: powderblue;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -17,12 +15,6 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.header{
-  text-align: center;
-  padding: 50px;
-  background: white;
 }
 
 
