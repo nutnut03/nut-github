@@ -1,21 +1,48 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   background: powderblue;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.container{
+/* Style for full background-image */
+.container {
   background-image: url("images/1.png");
+  background-size: cover;
   height: 100vh;
   width: 100%;
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
 }
 
+nav{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
 
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
