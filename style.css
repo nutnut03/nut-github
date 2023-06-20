@@ -4,4 +4,13 @@
 
 body{
   background: powderblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.header{
+  text-align: center;
+  padding: 50px;
+  background: white;
+}
+
+
