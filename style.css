@@ -19,43 +19,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-
-.container2 {
-  margin-top: 5px;
-  background-color: #ccc;
-  height: 100vh;
-}
-
-.container2 p {
-  text-align: center;
-  padding: 5px;
-}
-
-.left {
-  float: left;
-  width: 75%;
-}
-
-.right {
-  float: left;
-  width: 25%;
-  padding-left: 5px;
-}
-
-.other {
-  float: left;
-  width: 25%;
-  margin-top: 5px;
-  padding-left: 5px;
-}
-
-.card {
-  background-color: white;
-}
-
-
-
-
 /* Style the top navigation bar */
 nav {
   position: sticky;
@@ -81,4 +44,41 @@ nav {
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+}
+
+
+.container2 {
+  margin-top: 5px;
+  height: 100vh;
+}
+
+.container2 p {
+  padding: 5px;
+}
+
+.left {
+  float: left;
+  width: 75%;
+  
+
+}
+
+.right {
+  float: left;
+  width: 25%;
+  padding-left: 5px;
+}
+
+.other {
+  float: left;
+  width: 25%;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+.card {
+  background-color: white;
+  padding: 5px;
+  text-align: justify;
+
 }
