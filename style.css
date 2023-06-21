@@ -19,6 +19,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 /* Style the top navigation bar */
 nav {
   position: sticky;
@@ -46,39 +47,30 @@ nav {
   color: black;
 }
 
-
-.container2 {
-  margin-top: 5px;
+.content {
+  /*margin-top: 5px;*/
   height: 100vh;
-}
 
-.container2 p {
-  padding: 5px;
-}
-
-.left {
-  float: left;
-  width: 75%;
-  
-
-}
-
-.right {
-  float: left;
-  width: 25%;
-  padding-left: 5px;
-}
-
-.other {
-  float: left;
-  width: 25%;
-  margin-top: 5px;
-  padding-left: 5px;
 }
 
 .card {
   background-color: white;
-  padding: 5px;
+  padding: 5px 5px;
   text-align: justify;
+}
 
+#pCard {
+  text-align: center;
+  padding: 20px;
+}
+
+#pBox {
+  font-size: 50px;
+}
+
+.box {
+  background-color: #333;
+  padding: 50px 16px;
+  color: white;
+  text-align: center;
 }
