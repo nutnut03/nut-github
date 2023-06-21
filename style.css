@@ -20,12 +20,48 @@ body {
   background-position: center;
 }
 
-nav{
+.container2 {
+  margin-top: 5px;
+  background-color: #ccc;
+  height: 100vh;
+}
+
+.container2 p {
+  text-align: center;
+  padding: 5px;
+}
+
+.left {
+  float: left;
+  width: 75%;
+}
+
+.right {
+  float: left;
+  width: 25%;
+  padding-left: 5px;
+}
+
+.other {
+  float: left;
+  width: 25%;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+.card {
+  background-color: white;
+}
+
+
+
+
+/* Style the top navigation bar */
+nav {
   position: sticky;
-  position: -webkit-sticky;
   top: 0;
 }
-/* Style the top navigation bar */
+
 .topnav {
   overflow: hidden;
   background-color: #333;
