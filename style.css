@@ -20,6 +20,16 @@ body {
   background-position: center;
 }
 
+.container2 {
+  background-image: url("images/2.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* Style the top navigation bar */
 nav {
   position: sticky;
@@ -55,17 +65,15 @@ nav {
 
 }
 
-.box {
+.gallerybox {
   background-color: #333;
   padding: 10px;
-  color: white;
-  text-align: center;
-  height: 30vh;
+  height: 100vh;
 }
 
 .gallery {
   margin: 10px;
-  border: 1px solid black;
+  border: 5px solid whk;
   float: left;
   width: 30%;
 }
