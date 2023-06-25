@@ -2,16 +2,27 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
 }
 
 #header {
   background: black;
   padding: 20px 0;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
 .head-container {
   width: 86%;
   margin: 0 auto;
+  padding: 10px;
 }
 
 #header .head-container {
@@ -20,7 +31,6 @@
   align-items: center;
 }
 
-.main-nav
 .main-nav ul {
   padding: 0;
   margin: 0;
@@ -33,20 +43,36 @@
   font-size: 18px;
 }
 
-
 .main-nav ul li a{
   text-decoration: none;
   color: white;
 }
 
+.main-nav a:hover {
+  color: aqua;
+}
 
+.banner img {
+  max-width: 100%;
+  vertical-align: top;
+}
 
+.about-section,
+.service-section,
+.contact-section {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+}
 
-
-
-body {
+.about-section {
   background: powderblue;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.service-section {
+  background-color: aqua;
+}
+.contact-section {
+  background-color: antiquewhite;
 }
 
 /* Style for full background-image */
