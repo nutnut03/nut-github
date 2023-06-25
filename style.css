@@ -4,6 +4,46 @@
   padding: 0;
 }
 
+#header {
+  background: black;
+  padding: 20px 0;
+}
+
+.head-container {
+  width: 86%;
+  margin: 0 auto;
+}
+
+#header .head-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav
+.main-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.main-nav ul li {
+  float: left;
+  margin-left: 35px;
+  font-size: 18px;
+}
+
+
+.main-nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+
 body {
   background: powderblue;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -79,7 +119,7 @@ nav {
 }
 
 .gallery img {
-  width:  100%;
+  width: 100%;
   height: auto;
 }
 
@@ -101,4 +141,3 @@ nav {
 #pBox {
   font-size: 50px;
 }
-
