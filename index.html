@@ -1,40 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/3b8d75da5d.js" crossorigin="anonymous"></script> <!-- mykit -->
-
-  <title>nutnut-website</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/3b8d75da5d.js" crossorigin="anonymous"></script>
+  <title>Peanut</title>
 </head>
+
 <body>
 
-  <div class="header">
-    <h1>nutnut website</h1>
-    <p>Resize the browser window to show effect</p>
-    <h1>Git hub connect to vs code</h1>
+  <div class="wrapper">
+    <header id="header">
+      <div class="container">
+        <a href="#home" class="logo">PEANUT IT</a>
+        <ul class="log">
+          <li><a href="#">Login</a></li>
+          <li><a href="#">SignUp</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="body-container">
+      <nav class="main_nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <section class="section" id="home" style="background-image: url(images/4.jpg);">
+        <div class="container">
+          <div class="home-section">
+            <h1>Home</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut vero earum perspiciatis ratione numquam
+              culpa esse. Incidunt vitae facilis in molestiae placeat id suscipit, eum, voluptate, alias repellendus
+              enim! Eum!</p>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="about" style="background-image: url(images/3.jpg);">
+        <div class="container">
+          <div class="about-section">
+            <h1>About Us</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut vero earum perspiciatis ratione numquam
+              culpa esse. Incidunt vitae facilis in molestiae placeat id suscipit, eum, voluptate, alias repellendus
+              enim! Eum!
+            </p>
+          </div>
+        </div>
+    </div>
+    </section>
+    <section class="section" id="services" style="background-image: url(images/2.jpg);">
+      <div class="container">
+        <div class="services-section">
+          <h1>Our Service</h1>
+          <div class="services-row">
+            <div class="services-col">
+              <h3>Service 1</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cum voluptate eius. Modi explicabo
+                atque nobis distinctio ea illum cum tenetur culpa animi nisi, hic ad esse veniam. Odit, iusto.</p>
+            </div>
+            <div class="services-col">
+              <h3>Service 2</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cum voluptate eius. Modi explicabo
+                atque nobis distinctio ea illum cum tenetur culpa animi nisi, hic ad esse veniam. Odit, iusto.</p>
+            </div>
+            <div class="services-col">
+              <h3>Service 3</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cum voluptate eius. Modi explicabo
+                atque nobis distinctio ea illum cum tenetur culpa animi nisi, hic ad esse veniam. Odit, iusto.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="contact" style="background-image: url(images/1.jpg);">
+      <div class="container">
+        <div class="contact-section">
+          <h2>Contact Us</h2>
+          <form action="">
+            <div>
+              <input type="text" name="" placeholder="Name">
+              <input type="text" name="" placeholder="Email">
+              <select>
+                <option>Service 1</option>
+                <option>Service 2</option>
+                <option>Service 3</option>
+              </select>
+              <textarea placeholder="Message Box:"></textarea>
+              <input type="submit" value="Submit" name="" placeholder="Submit">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
   </div>
 
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#news">News</a></li>
-        <li class="dropdown">
-          <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-          <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <a href="#">Link 3</a>
-
-          </div>
-        </li>
+  <footer id="footer">
+    <div class="container">
+      <span>Copyright &copy; 2023 Peanut.com</span>
+      <ul class="socials-links">
+        <li><i class="fa-brands fa-facebook"></i></li>
+        <li><i class="fa-brands fa-twitter"></i></li>
       </ul>
-      
-      <h3>Dropdown Menu inside a Navigation Bar</h3>
-      <p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+    </div>
+  </footer>
+
+  </div>
 
 </body>
+
 </html>
