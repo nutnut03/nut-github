@@ -1,26 +1,99 @@
-
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-body {
-  font-family: Arial;
+#header {
+  background: rgba(0, 0, 0, 0.6);
   padding: 10px;
+  width: 100%;
+  position: fixed;
+}
+
+.head-container {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#header .head-container {
+  display: flex; /* padding center */
+}
+
+.main-nav ul li {
+  float: left;
+  list-style: none;
+  margin-left: 200px;
+  font-size: 18px;
+}
+
+.main-nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-nav a:hover {
+  color: gray;
+}
+
+.banner img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.about-section,
+.service-section,
+.contact-section {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+}
+
+.about-section {
   background: powderblue;
 }
 
-/* Header/Blog Title */
-.header {
-  padding: 30px;
-  text-align: center;
-  background: white;
+.service-section {
+  background-color: aqua;
 }
 
-.header h1 {
-  font-size: 50px;
+.contact-section {
+  background-color: antiquewhite;
+}
+
+
+
+
+
+
+/* Style for full background-image */
+.container {
+  background-image: url("images/1.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container2 {
+  background-image: url("images/2.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Style the top navigation bar */
+nav {
+  position: sticky;
+  top: 0;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -42,62 +115,47 @@ body {
   color: black;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
 .card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
+  background-color: grey;
+  padding: 5px 5px;
+  text-align: justify;
+  height: 100vh;
+
 }
 
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
+.gallerybox {
+  background-color: #333;
+  padding: 10px;
+  height: 100vh;
 }
 
-/* Footer */
-.footer {
-  padding: 20px;
+.gallery {
+  margin: 10px;
+  border: 5px solid whk;
+  float: left;
+  width: 30%;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
   text-align: center;
-  background: #ddd;
-  margin-top: 20px;
+  background-color: #f2f2f2;
+  color: black;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
+
+
+
+#pCard {
+  text-align: center;
+  padding: 20px;
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
+#pBox {
+  font-size: 50px;
 }
