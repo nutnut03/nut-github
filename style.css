@@ -24,13 +24,14 @@ body {
 #header .container {
   display: flex; /* padding center */
   margin-bottom: 10px;
+  justify-content: center;
 }
 
 .main-nav ul li {
   float: left;
   list-style: none;
   font-size: 20px;
-  margin-left: 300px;
+  margin-left: 30px;
 }
 
 .main-nav ul li a {
