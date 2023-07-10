@@ -3,6 +3,9 @@
   scroll-behavior: smooth;
 }
 
+h1 {
+  text-align: ce;
+}
 body {
   margin: 0;
   padding: 0;
@@ -31,7 +34,7 @@ body {
   float: left;
   list-style: none;
   font-size: 20px;
-  margin-left: 30px;
+  margin-left: 300px;
 }
 
 .main-nav ul li a {
@@ -47,7 +50,6 @@ body {
   width: 100%;
   height: 100vh;
   padding: 150px 0;
-  background-image: url("images/1.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -55,20 +57,18 @@ body {
   display: flex;
 }
 
-.section-2 {
+.container {
   width: 100%;
-  height: 100vh;
-  padding: 150px 0;
-  background-image: url("images/2.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  align-items: center;
+  max-width: 1200px;
+  margin-inline: auto;
   display: flex;
+  justify-content: space-between;
 }
 
-
-.home-section {
+.home-section,
+.about-section,
+.service-section,
+.contact-section {
   width: 100%;
   color: #fff;
   margin-left: 30px;
@@ -77,21 +77,20 @@ body {
   background: rgba(0, 0, 0, 0.6);
 }
 
-
-.home-section img {
-  max-width: 100%;
-  vertical-align: top;
-}
-
-.about-section img {
-  max-width: 100%;
-  vertical-align: top;
-}
-
-.about-section,
-.service-section,
 .contact-section {
-  height: 100vh;
-  align-items: center;
-  display: flex;
+  max-width: 700px;
+  text-align: center;
+}
+
+.contact-section input,
+.contact-section select,
+.contact-section textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  width: 100%;
+  padding: 10px 15px;
+  margin: 0 0 15px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
 }
